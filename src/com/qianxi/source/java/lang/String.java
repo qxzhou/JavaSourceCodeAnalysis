@@ -108,6 +108,16 @@ import java.util.regex.PatternSyntaxException;
  * @since   JDK1.0
  */
 
+
+/**
+ * Note:
+ * 1. String is immutable, thus they can be shared.
+ * 2. String concatenation is implemented
+ *  through the {@code StringBuilder}(or {@code StringBuffer})
+ *  class and its {@code append} method.
+ * 3. Throws NullPointerException if passing a null argument to a constructor or method
+ */
+
 public final class String
     implements java.io.Serializable, Comparable<String>, CharSequence {
     /** The value is used for character storage. */
@@ -279,6 +289,10 @@ public final class String
 
         this.value = v;
     }
+
+    /**
+     * Date Update : 2020-04-21
+     */
 
     /**
      * Allocates a new {@code String} constructed from a subarray of an array
