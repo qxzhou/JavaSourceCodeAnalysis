@@ -1123,6 +1123,11 @@ public final class String
                 && regionMatches(true, 0, anotherString, 0, value.length);
     }
 
+
+    /**
+     * Date：2020-04-22
+     */
+
     /**
      * Compares two strings lexicographically.
      * The comparison is based on the Unicode value of each character in
