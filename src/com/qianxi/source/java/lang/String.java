@@ -1298,7 +1298,7 @@ public final class String
         int po = ooffset;
         // Note: toffset, ooffset, or len might be near -1>>>1.
         if ((ooffset < 0) || (toffset < 0)
-                || (toffset > (long)value.length - len)
+                || (toffset > (long)value.length - len)               //why long type here?
                 || (ooffset > (long)other.value.length - len)) {
             return false;
         }
@@ -3184,4 +3184,6 @@ public final class String
      *          guaranteed to be from a pool of unique strings.
      */
     public native String intern();
+
+    //Completed on 2020/04/27
 }
