@@ -165,6 +165,8 @@ public abstract class AbstractSet<E> extends AbstractCollection<E> implements Se
      * @see #remove(Object)
      * @see #contains(Object)
      */
+
+    //compare to yield smaller-size set as the base Set.
     public boolean removeAll(Collection<?> c) {
         Objects.requireNonNull(c);
         boolean modified = false;
@@ -184,3 +186,6 @@ public abstract class AbstractSet<E> extends AbstractCollection<E> implements Se
     }
 
 }
+
+
+//Completed on 2020/05/03.
