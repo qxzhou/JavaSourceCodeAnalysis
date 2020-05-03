@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bbdb2220-5589-49e4-993e-b6d01729aafa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/qianxi/source/java/util/AbstractList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qianxi/source/java/util/AbstractList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,13 +26,30 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/qianxi/test/HashMap/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/qianxi/source/java/util/AbstractList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="767" column="40" lean-forward="true" selection-start-line="767" selection-start-column="40" selection-end-line="767" selection-end-column="40" />
+              <folding>
+                <element signature="e#4449#4450#0" expanded="true" />
+                <element signature="e#4506#4507#0" expanded="true" />
+                <element signature="e#4990#4991#0" expanded="true" />
+                <element signature="e#5047#5048#0" expanded="true" />
+                <element signature="e#13024#13025#0" expanded="true" />
+                <element signature="e#13062#13063#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,6 +108,7 @@
         <option value="$PROJECT_DIR$/src/com/qianxi/source/java/lang/Object.java" />
         <option value="$PROJECT_DIR$/src/com/qianxi/source/java/lang/String.java" />
         <option value="$PROJECT_DIR$/src/com/qianxi/source/java/lang/Thread.java" />
+        <option value="$PROJECT_DIR$/src/com/qianxi/source/java/util/AbstractList.java" />
       </list>
     </option>
   </component>
@@ -163,6 +182,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaSourceCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaSourceCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="qianxi" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="AbstractList.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -234,7 +263,7 @@
       <workItem from="1587282733135" duration="2025000" />
       <workItem from="1587384138389" duration="8182000" />
       <workItem from="1587470310041" duration="21518000" />
-      <workItem from="1588003785249" duration="5325000" />
+      <workItem from="1588003785249" duration="14984000" />
     </task>
     <task id="LOCAL-00001" summary="Object completed and String to be continued...">
       <created>1587478883247</created>
@@ -257,11 +286,18 @@
       <option name="project" value="LOCAL" />
       <updated>1587992197474</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Thread completed.">
+      <created>1588318938218</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588318938218</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37050000" />
+    <option name="totallyTimeSpent" value="46709000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -290,7 +326,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.36746988" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30843374" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32967034" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.44642857" />
@@ -361,7 +397,8 @@
     <MESSAGE value="Object completed and String to be continued..." />
     <MESSAGE value="String to be continued..." />
     <MESSAGE value="String completed." />
-    <option name="LAST_COMMIT_MESSAGE" value="String completed." />
+    <MESSAGE value="Thread completed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread completed." />
   </component>
   <component name="WindowStateProjectService">
     <state width="618" height="972" key="Git.Branch.Popup" />
@@ -510,19 +547,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/qianxi/source/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="2030" column="51" lean-forward="true" selection-start-line="2030" selection-start-column="51" selection-end-line="2030" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/qianxi/test/HashMap/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/qianxi/source/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2439">
+          <caret line="2033" lean-forward="true" selection-start-line="2033" selection-end-line="2033" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/qianxi/source/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="767" column="40" lean-forward="true" selection-start-line="767" selection-start-column="40" selection-end-line="767" selection-end-column="40" />
+          <folding>
+            <element signature="e#4449#4450#0" expanded="true" />
+            <element signature="e#4506#4507#0" expanded="true" />
+            <element signature="e#4990#4991#0" expanded="true" />
+            <element signature="e#5047#5048#0" expanded="true" />
+            <element signature="e#13024#13025#0" expanded="true" />
+            <element signature="e#13062#13063#0" expanded="true" />
           </folding>
         </state>
       </provider>

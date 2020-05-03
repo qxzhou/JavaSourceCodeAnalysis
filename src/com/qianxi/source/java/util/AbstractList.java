@@ -520,7 +520,7 @@ public abstract class AbstractList<E> extends AbstractCollection<E> implements L
         while (e1.hasNext() && e2.hasNext()) {
             E o1 = e1.next();
             Object o2 = e2.next();
-            if (!(o1==null ? o2==null : o1.equals(o2)))
+            if (!(o1==null ? o2==null : o1.equals(o2)))     //tricky here
                 return false;
         }
         return !(e1.hasNext() || e2.hasNext());
