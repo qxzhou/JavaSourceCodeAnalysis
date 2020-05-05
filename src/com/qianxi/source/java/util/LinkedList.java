@@ -463,6 +463,8 @@ public class LinkedList<E>
     }
 
 
+    //noted on 2020/05/05
+
     // Positional Access Operations
 
     /**
